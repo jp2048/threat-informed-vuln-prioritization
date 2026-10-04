@@ -1,0 +1,26 @@
+plugin_id,cve,host,severity,cvss_score,plugin_name,solution
+156103,CVE-2021-44228,web-prod-01.corp.example.com,Critical,10.0,Apache Log4j2 Remote Code Execution (Log4Shell),Upgrade Log4j2 to 2.17.1 or later; apply vendor patches immediately.
+187654,CVE-2024-3400,vpn-gateway.corp.example.com,Critical,10.0,Palo Alto Networks PAN-OS Command Injection,Apply PAN-OS hotfixes 10.2.9-h1 / 11.0.4-h1 / 11.1.2-h3 or later.
+192031,CVE-2023-20198,edge-router-02.corp.example.com,Critical,10.0,Cisco IOS XE Web UI Privilege Escalation,Upgrade to a fixed IOS XE release; disable the HTTP server feature if not required.
+176420,CVE-2022-22965,app-srv-04.corp.example.com,Critical,9.8,Spring Framework Remote Code Execution (Spring4Shell),Upgrade Spring Framework to 5.3.18 / 5.2.20 or later.
+178902,CVE-2023-34362,filedrop.corp.example.com,Critical,9.8,MOVEit Transfer SQL Injection,Upgrade MOVEit Transfer; rotate credentials and audit for data exfiltration.
+189355,CVE-2024-21887,vpn-gateway.corp.example.com,Critical,9.1,Ivanti Connect Secure Command Injection,Upgrade Ivanti appliance; factory-reset and rotate credentials if compromise is suspected.
+176381,CVE-2021-34527,dc-01.corp.example.com,High,8.8,Windows Print Spooler Remote Code Execution (PrintNightmare),Apply Microsoft security updates; disable Print Spooler on domain controllers where printing is not needed.
+185612,CVE-2023-4863,web-prod-01.corp.example.com,High,8.8,libwebp Heap Buffer Overflow,Update libwebp to 1.3.2 and rebuild dependent applications.
+190845,CVE-2024-6387,bastion-01.corp.example.com,High,8.1,OpenSSH Race Condition (regreSSHion),Upgrade OpenSSH to 9.8p1 or later; restrict SSH exposure to management networks.
+193044,CVE-2023-21716,ws-fin-112.corp.example.com,Critical,9.8,Microsoft Word Remote Code Execution,Apply Microsoft Patch Tuesday updates; block RTF preview-pane rendering where feasible.
+193712,CVE-2024-38476,web-prod-02.corp.example.com,Critical,9.8,Apache HTTP Server mod_proxy SSRF,Upgrade Apache HTTP Server to 2.4.60 or later.
+194020,CVE-2023-21709,mail-01.corp.example.com,Critical,9.8,Microsoft Exchange Server Elevation of Privilege,Apply Exchange Server security updates per Microsoft guidance.
+194455,CVE-2024-21334,app-srv-07.corp.example.com,Critical,9.8,Open Management Infrastructure (OMI) Remote Code Execution,Apply Linux distribution security updates for OMI.
+188990,CVE-2023-45853,build-agent-03.corp.example.com,Critical,9.8,MiniZip Integer Overflow (zlib),Upgrade zlib/MiniZip to a fixed release; rebuild statically linked binaries.
+176990,CVE-2021-36958,print-srv-01.corp.example.com,High,7.8,Windows Print Spooler Remote Code Execution,Apply Microsoft security updates; harden Print Spooler ACLs.
+177540,CVE-2022-22720,web-prod-03.corp.example.com,Critical,9.8,Apache HTTP Server Connection Handling Flaw,Upgrade Apache HTTP Server to 2.4.53 or later.
+194102,CVE-2024-20674,dc-01.corp.example.com,High,8.8,Windows Kerberos Security Feature Bypass,Apply Microsoft security updates; enforce Kerberos hardening per guidance.
+193881,CVE-2023-36036,ws-fin-115.corp.example.com,High,7.8,Windows Cloud Files Mini Filter Driver Elevation of Privilege,Apply Microsoft security updates.
+194230,CVE-2024-20653,ws-hr-034.corp.example.com,High,7.8,Windows Common Log File System Elevation of Privilege,Apply Microsoft security updates.
+194311,CVE-2024-26248,dc-02.corp.example.com,High,7.5,Windows Kerberos Elevation of Privilege,Apply Microsoft security updates.
+150911,CVE-2021-28041,bastion-02.corp.example.com,High,7.1,OpenSSH ssh-agent Double Free,Upgrade OpenSSH to 8.5p1 or later.
+191570,CVE-2023-24932,ws-fin-118.corp.example.com,Medium,6.7,Windows Secure Boot Security Feature Bypass,Apply Secure Boot DBX revocation updates per Microsoft guidance.
+193905,CVE-2024-40725,web-prod-04.corp.example.com,Medium,5.3,Apache HTTP Server Source Code Disclosure,Upgrade Apache HTTP Server to 2.4.62 or later.
+51192,,web-prod-01.corp.example.com,Medium,6.4,SSL Certificate Cannot Be Trusted,Install a certificate from a trusted CA; verify the full chain and hostname match.
+104743,,legacy-app.corp.example.com,Medium,4.3,TLS Version 1.0 Protocol Detection,Disable TLS 1.0; enforce TLS 1.2 or higher on all services.
