@@ -1,0 +1,23 @@
+# Local threat-intel caches (rebuilt automatically on next run)
+kev_catalog.csv
+epss_cache.json
+
+# Generated output
+prioritized_findings.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets / environment
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
